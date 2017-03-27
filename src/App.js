@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <img style={{width: 50, height: 50, display: 'inline-block'}} src={require('./logo.png')} alt={'logo'} />
+        <h1 style={{display: 'inline-block', marginLeft: 15}}>
+          in knead
+        </h1>
       </div>
-    );
+    )
   }
 }
 
