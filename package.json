@@ -1,6 +1,6 @@
 {
   "name": "in-knead-website",
-  "homepage": "http://www.inknead.pizza",
+  "homepage": "https://in-knead-website.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
